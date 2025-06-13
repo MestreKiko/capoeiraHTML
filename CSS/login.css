@@ -1,0 +1,59 @@
+body{
+    font-family: fantasy;
+    background-color: rgb(219, 94, 94);
+}
+
+.Zone{
+    background-color: rgb(32, 32, 197);
+    font-size: 50px;
+    margin-top: 0px;
+    display: inline-flex;
+    width: 100%;
+}
+
+.logo{
+    width: 200px;
+    height: 200px;
+  /*  display: block; 
+    margin: 0 auto;*/
+}
+
+.menulist{
+    color: white;
+    font-size: 20px;
+    list-style-type: none;
+    display: inline-flex;
+    margin-left: 700px;
+    text-decoration: none;
+
+}
+
+.menubutton{
+    padding: 25px;
+
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.menubutton:hover{
+    border-bottom: 6px dotted white;    
+    cursor: pointer;
+}
+
+.rodape {
+    background-color: rgb(32, 32, 197);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 5px;
+}
+
+.extrafoto{
+    width: 100px;
+    height: 100px;
+
+}
